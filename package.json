@@ -1,0 +1,16 @@
+{
+  "name": "training-datepicker",
+  "version": "1.0.0",
+  "description": "Training datepicker exercise for ramping up new hires in the MDE office",
+  "main": "index.js",
+  "repository": "",
+  "author": "Juliana Gomez",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  },
+  "scripts": {
+    "start": "live-server src",
+    "test": "live-server tests --mount=/:./src/js --port=8081"
+  }
+}
