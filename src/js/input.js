@@ -1,4 +1,4 @@
-import Calendar from "./datepicker.js";
+const Calendar = require("./datepicker.js");
 
 class Input {
   constructor(container) {
@@ -112,4 +112,4 @@ class Input {
   }
 }
 
-export default Input;
+module.exports = { Input };

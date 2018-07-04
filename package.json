@@ -1,9 +1,12 @@
 {
-  "name": "training-datepicker",
+  "name": "simple-datepicker",
   "version": "1.0.0",
-  "description": "Training datepicker exercise for ramping up new hires in the MDE office",
+  "description": "Simple datepicker with some accessibility support added",
   "main": "index.js",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomezjuliana/simple-datepicker.git"
+  },
   "author": "Juliana Gomez",
   "license": "MIT",
   "dependencies": {
@@ -12,5 +15,17 @@
   "scripts": {
     "start": "live-server src",
     "test": "live-server tests --mount=/:./src/js --port=8081"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "datepicker",
+    "accessible"
+  ],
+  "bugs": {
+    "url": "https://github.com/gomezjuliana/simple-datepicker/issues"
+  },
+  "homepage": "https://github.com/gomezjuliana/simple-datepicker#readme"
 }
