@@ -1,5 +1,5 @@
 {
-  "name": "simple-datepicker",
+  "name": "simplest-datepicker",
   "version": "1.0.0",
   "description": "Simple datepicker with some accessibility support added",
   "main": "index.js",
