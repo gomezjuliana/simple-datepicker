@@ -2,7 +2,7 @@
   "name": "simplest-datepicker",
   "version": "1.0.0",
   "description": "Simple datepicker with some accessibility support added",
-  "main": "index.js",
+  "main": "input.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gomezjuliana/simple-datepicker.git"
